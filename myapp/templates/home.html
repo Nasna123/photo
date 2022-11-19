@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .row{
+                background-color: rgb(171, 182, 178);
+            }
+            .col-3{
+                margin-top: 60px;
+            }
+            .col-2{
+                margin-top: 60px;
+                
+                
+            }
+            .color{
+                background-color: rgb(240, 116, 116);
+            }
+            .row1{
+                background-color: rgb(171, 182, 178);
+                width:100%;
+                height:500px;
+                background: image images/foto 1png;
+            }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4"><img src="{% static 'images/foto1.png' %}" height="150px"></div>
+            <div class="col-3"><a href="home.html"><input type="button" value="Home" class="color"></a></div>
+            <div class="col-3">
+                 <a href="img.html"> <input type="button" value="Images" class="color"></a>
+                
+            </div>
+            <div class="col-2">
+                <a href="about.html"> <input type="button" value="About" class="color"></a>
+            </div>
+          
+           
+
+        </div>
+        <div class="row1">
+            <h1>Corporate Events</h1>
+            <p>No matter how big or small,Corporate events matter to your company.And the images you have them from is an excellent way to show your business off to the world.<br>And my corporate event photography service will ensure your business looks great at all times.</p>
+             <img src="{%static 'images/foto1.png' %}" height="500px" width="100%">
+             <h4 ALign="center">WE SHOOT EVERYTHING</h4>
+             <UL align="center">wedding</UL>
+             <ul align="center">Newborn</ul>
+             <ul align="center">Family</ul>
+             <ul align="center">FOOD</ul>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

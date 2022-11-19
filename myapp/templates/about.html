@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+    <style>
+        .dropdown{
+            color:rgb(240, 116, 116);
+        }
+        .row{
+                background-color: rgb(171, 182, 178);
+            }
+            /* .col-3{
+                margin-top: 60px; */
+            
+            .col-2{
+                margin-top:60px;
+                }
+            .color{
+                background-color: rgba(171, 182, 182, 0.808);
+            }
+    </style>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4"><img src="{%static 'images/foto1.png' %}" height="150px"></div>
+            <div class="col-2">
+                <a href="home.html"><input type="button" value="Home" class="color"></a>
+            </div>
+            <div class="col-2"> 
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                      menu
+                    </a>
+                  
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Wedding</a>
+                      <a class="dropdown-item" href="#">New born</a>
+                      <a class="dropdown-item" href="#">Food</a>
+                      <a class="dropdown-item" href="#">Family</a>
+                    </div>
+                  </div>
+                <!-- <input type="button" value="Menu" class="color"> -->
+
+            </div>
+            
+            <div class="col-2">
+                <a href="about.html"> <input type="button" value="About" class="color"></a>
+            </div>
+            <div class="col-2">
+                <a href="#contact"> <input type="button" value="Contact" class="color" ></a>
+               
+           </div>
+           
+        </div><br><br>
+        <h1 align="center">About Us</h1>
+        <p>I’m a professional Indian freelance photographer now living in Dubai capturing the perfect moments in time.
+
+            We are surrounded by perfect moments. I’m here to work and make things possible for you, to share milestones using a fun timeline, to shoot as honestly as possible and capture the things that light my soul and make me happy. My mood reflects my choice of subjects. I believe in having a good time while doing what I love, in capturing your emotions, to ensure that moments are relived whenever you want and help you make them last for a lifetime.
+            
+            I love to capture special moments and aim to offer relaxed, fun and natural photo-shoots. From your wedding photoshoot to your child’s birthday party and your prestigious company event.
+            
+            I can make mistakes and create a mess, but only experiments lead to beautiful results as every great discovery was once considered a mistake to come out and be something so beautiful. A photograph is not just a photograph, it is your history captured for eternity and your life deserves being captured perfectly!<br>
+            
+            With thanks<br>
+            
+            FM PHOTO
+        </p>
+        <div id="contact">
+            <h3 align="center">CONTACT US</h3>
+            <p align="center">PHONE:9876543211</p>
+            <p align="center">Email Id:fmphoto@gmail.com</p>
+            <p align="center">instagram:fm_photo</p>
+        </div>
+
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> 
+</body>
+</html>
